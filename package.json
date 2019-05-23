@@ -1,0 +1,22 @@
+{
+  "name": "star-wars-app",
+  "version": "1.0.0",
+  "description": "Activities Week 13",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergioardz79/star-wars-app.git"
+  },
+  "author": "sergioardz79",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergioardz79/star-wars-app/issues"
+  },
+  "homepage": "https://github.com/sergioardz79/star-wars-app#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
