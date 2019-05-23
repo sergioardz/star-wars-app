@@ -33,7 +33,7 @@ var characters = [
     routeName: "obiwankenobi",
     name: "Obi Wan Kenobi",
     role: "Jedi Master",
-    age: 58,
+    age: 55,
     forcePoints: 1350
   }
 ];
@@ -48,6 +48,10 @@ app.get("/", function(req, res) {
 
 app.get("/add", function(req, res) {
   res.sendFile(path.join(__dirname, "add.html"));
+});
+
+app.get("/all", function(req, res) {
+  res.sendFile(path.join(__dirname, "all.html"));
 });
 
 // Displays all characters
